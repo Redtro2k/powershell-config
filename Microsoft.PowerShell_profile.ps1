@@ -19,6 +19,8 @@ function pa {
 }
 function model-show { php artisan model:show $args[0] }
 
+function migrate-table {php artisan make:migration $args[0]}
+
 function tinker {php artisan tinker}
 
 function rl {php artisan route:list}
